@@ -1,0 +1,1 @@
+export const APPAREL_UPLOADS = "APPAREL_UPLOADS";

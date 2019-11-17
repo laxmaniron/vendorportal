@@ -1,0 +1,27 @@
+.register-form {
+  background-color: rgba(255, 255, 255, 0.795);
+}
+
+.register-form-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.register-field {
+  margin: 2% 2% 2% 2%;
+  width: 35%;
+  min-width: 200px;
+}
+
+.register-form {
+  width: 75%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.registertitle {
+  font-size: 30px;
+  padding-top: 1%;
+}
+.radio-btns {
+  margin: 5px;
+}
