@@ -16,10 +16,14 @@ class VendorMain extends Component {
         <div>
           <Vendornotification />
         </div>
-        <div className="grey lighten-4">
+        <div style={{ backgroundColor: "rgba(0,0,0,0)" }}>
           <div className="container file-container">
-            <p className="file-title">Got new dresses to sell?</p>
-            <p className="file-subtitle">Upload them here</p>
+            <p className="file-title pink-text" style={{ fontSize: "2.5rem" }}>
+              Got new dresses to sell?
+            </p>
+            <p className="file-subtitle teal-text" style={{ fontSize: "2rem" }}>
+              Upload them here
+            </p>
             <div className="card hoverable pink lighten-5">
               <Vendorfile />
             </div>

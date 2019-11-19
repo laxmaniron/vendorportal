@@ -1,7 +1,7 @@
 import { APPAREL_UPLOADS } from "../actions/types";
 
 const initialState = {
-  apparelUploads: [],
+  apparelUploads: {},
   uploadDone: false
 };
 

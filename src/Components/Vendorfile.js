@@ -59,9 +59,12 @@ class Vendorfile extends React.Component {
 
   onfileSubmit = () => {
     var f = document.getElementsByClassName("file-xl")[0].files;
-    // console.log(f);
-
     this.props.postapparelUpload(f);
+    // console.log(f);
+    // window.alert("Sending please wait");
+    setTimeout(() => {
+      window.alert("ok");
+    }, 8000);
   };
 
   render() {
@@ -94,39 +97,12 @@ class Vendorfile extends React.Component {
           className="xl-sheet "
           style={{ display: "none", fontWeight: "600" }}
         ></div>
-        <hr />
+        <br />
         <div className="xl-sheet-2" style={{ display: "none" }}></div>
-        <hr />
+        <br />
         <div className="xl-sheet-3" style={{ display: "none" }}></div>
 
-        {/*
-        <div className="file-field input-field">
-          <div className="btn waves-effect waves-red pink white-text">
-            <span style={{ fontWeight: "700" }}>File for Colors</span>
-            <input type="file" className="file-xl-2" accept=".xlsx" />
-          </div>
-          <div className="file-path-wrapper">
-            <input className="file-path validate" type="text" />
-          </div>
-        </div>
         <br />
-        <div className="xl-sheet-2" style={{ display: "none" }}></div>
-        <hr />
-
-        <div className="file-field input-field">
-          <div className="btn waves-effect waves-red pink white-text">
-            <span style={{ fontWeight: "700" }}>
-              File for Dress Information
-            </span>
-            <input type="file" className="file-xl-3" accept=".xlsx" />
-          </div>
-          <div className="file-path-wrapper">
-            <input className="file-path validate" type="text" />
-          </div>
-        </div>
-        <br />
-        <div className="xl-sheet-3" style={{ display: "none" }}></div> */}
-        <hr />
         <div
           className="btn teal darken-2"
           style={{ float: "right", fontWeight: "700" }}
